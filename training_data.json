@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","Pleasure is all mine"]
+    },
+    {
+      "tag": "clothes",
+      "patterns": [
+        "Which clothes do you have?",
+        "Show me some clothes",
+        "What kind of clothes do you sell"
+      ],
+      "responses": [
+        "We sell jeans, t-shirts, shirts, suits, gowns and sarees etc.",
+        "We have jeans, t-shirts, shirts, suits, gowns and sarees etc."
+      ]
+    },
+    {
+      "tag": "shoes",
+      "patterns": [
+        "Which shoes do you have?",
+        "Show me some shoes",
+        "What kind of shoes do you sell"
+      ],
+      "responses": [
+        "We sell casuals shoes, formals shoes, sport shoes, party shoes, sandals and flip-flops.",
+        "We have casuals shoes, formals shoes, sport shoes, party shoes, sandals and flip-flops."
+      ]
+    },
+    {
+      "tag": "fashion accessories",
+      "patterns": [
+        "Which accessories  do you have?",
+        "Show me some accessories",
+        "What kind of accessories do you sell"
+      ],
+      "responses": [
+        "We sell wallet, purses, clutches, fashion jewelleries, belts and jackets.",
+        "We have wallet, purses, clutches, fashion jewelleries, belts and jackets."
+      ]
+    },
+    {
+      "tag": "home decor",
+      "patterns": [
+        "Which decor items  do you have?",
+        "Show me some decor items",
+        "What kind of decor items do you sell"
+      ],
+      "responses": [
+        "We sell lamp shades, vases, art-pieces, curtains, bedding and fancy lights.",
+        "We have lamp shades, vases, art-pieces, curtains, bedding and fancy lights."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell clothes, shoes, fashion accessories and home decor.",
+        "We have clothes, shoes, fashion accessories and home decor."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with UPI?",
+        "Is cash on delivery available?",
+        "How do you take payments?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, American Express, UPI and Cash on Delivery.",
+        "We accept most major credit cards, debit cards, UPI and COD."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
