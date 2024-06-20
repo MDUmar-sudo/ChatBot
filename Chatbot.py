@@ -47,4 +47,4 @@ def get_response(msg):
                 return random.choice(intent['responses'])
 
     else:
-        return "I do not understand..."
+        return "I do not recognize..."
